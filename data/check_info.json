@@ -1,0 +1,47 @@
+{
+  "AIRCRAFT_ID": {
+    "info": "B-1234",
+    "name": "飞机号：",
+    "prompt": "机尾号（例如B-1234可以只填1234）："
+  },
+  "BRIDGE_NO": {
+    "info": "A01",
+    "name": "桥位：",
+    "prompt": "桥位："
+  },
+  "CHECK_NO": {
+    "info": "A1",
+    "name": "A检级别：",
+    "prompt": "A检级别（例如A120可以只填120，或填“换发”）："
+  },
+  "DIRECTOR_NAME": {
+    "info": "示例人员",
+    "name": "值班主任姓名：",
+    "prompt": "值班主任姓名："
+  },
+  "EMPLOYEE_NO": {
+    "info": "000000",
+    "name": "领料员工号：",
+    "prompt": "领料员工号（填自己即可）："
+  },
+  "FLIGHT_LOG_PAGE": {
+    "info": "EXAMPLE_PAGE",
+    "name": "飞行记录本页号(有保留就填)：",
+    "prompt": "飞行记录本页号（有保留就填）："
+  },
+  "FLIGHT_NO": {
+    "info": "",
+    "name": "航班号：",
+    "prompt": "航班号（选填，例如1234）："
+  },
+  "GUN": {
+    "info": "G01",
+    "name": "有效号：",
+    "prompt": "有效号："
+  },
+  "ORDER_NO": {
+    "info": "EXAMPLE_ORDER",
+    "name": "航材指令号：",
+    "prompt": "航材指令号："
+  }
+}
