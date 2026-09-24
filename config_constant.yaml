@@ -1,0 +1,99 @@
+constant:
+  station: "SAMPLE_STATION"
+  aerial_material_phone: "00000000"
+  engineer_phone: "00000000"
+  pc_password: "REPLACE_WITH_PRIVATE_PASSWORD"
+  flight_prefix: "XX"
+
+tools_position:
+  "IDG加油器": "示例区域01"
+  "放水车": "示例区域02"
+  "放油杆&放油瓶": "示例区域03"
+  "前轮": "示例区域04"
+  "主轮": "示例区域05"
+  "轮刹": "示例区域06"
+  "轮刹封圈": "示例区域07"
+  "给挂签": "示例区域08"
+  "声光报警器": "示例区域09"
+  "问拖车号": "示例区域10"
+  "负压循环洗厕所": "示例区域11"
+  "借洗厕所消毒水": "示例区域12"
+  "还洗厕所消毒水": "示例区域13"
+  "吹散热器": "示例区域14"
+  "叶片润滑": "示例区域15"
+  "IDG托架": "示例区域16"
+  "液压油柜": "示例区域17"
+  "倒废油": "示例区域18"
+  "滑油柜": "示例区域19"
+
+mro:
+  account:
+    "operator_a":
+      user_name: "USER_A"
+      password: "REPLACE_WITH_PRIVATE_PASSWORD_A"
+      mel_license: "REPLACE_WITH_PRIVATE_LICENSE_A"
+    "operator_b":
+      user_name: "USER_B"
+      password: "REPLACE_WITH_PRIVATE_PASSWORD_B"
+      mel_license: "REPLACE_WITH_PRIVATE_LICENSE_B"
+
+tech_portal:
+  account:
+    "operator_b":
+      user_name: "USER_B"
+      password: "REPLACE_WITH_PRIVATE_PASSWORD_B"
+
+legacy_portal:
+  account:
+    "operator_c":
+      user_name: "USER_C"
+      password: "REPLACE_WITH_PRIVATE_PASSWORD_C"
+  deliver_to: "SAMPLE_RECIPIENT"
+
+todo_list:
+  - "提前拍防爆柜"
+  - "借一个大盒子放白线区域装航材"
+  - "夜宵（打宵夜单填写&带上保温盒）"
+  - "工时"
+  - "非卡方案&打印&关卡"
+  - "录滑油"
+  - "交接单"
+  - "还工具"
+  - "退料"
+  - "缺件单"
+  - "非保&电话叫工程师"
+  - "若无特殊情况，试车时去生产叫大车"
+  - "最后拍防爆柜"
+
+
+links:
+  use_guide: "https://example.invalid/use-guide"
+  workcard_guide: "https://example.invalid/workcard-guide"
+  parts_guide: "https://example.invalid/parts-guide"
+  operation_guide: "https://example.invalid/operation-guide"
+  network_login: "https://example.invalid/network-login"
+  document_cloud: "https://example.invalid/document-cloud"
+  man_hours: "https://example.invalid/man-hours"
+  quality_rectification: "https://example.invalid/quality-rectification"
+  mro_login: "https://example.invalid/mro/login"
+  mro_non_routine_workcard: "https://example.invalid/mro/non-routine-workcard"
+  mro_tasks_issue: "https://example.invalid/mro/tasks-issue"
+  mro_parts_search: "https://example.invalid/mro/parts-search"
+  tech_portal_login: "https://example.invalid/tech-portal/login"
+  tech_portal_manual: "https://example.invalid/tech-portal/manual"
+
+paths:
+  desktop: 'C:\Users\Public\Desktop'
+  alternate_browser: 'C:\Program Files\ExampleBrowser\browser.exe'
+  chrome: 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+  local_ipc: 'C:\Example\737NG\IPC'
+  man_hours_template: 'C:\Example\man-hours\template.xls'
+  man_hours_fetch: 'C:\Example\man-hours\daily.xls'
+  man_hours_document: 'C:\Example\man-hours\guide.docx'
+  common_parts: 'C:\Example\common-parts.doc'
+
+window_titles:
+  document_cloud: "文档平台"
+  mro_portal: "维修平台"
+  tech_portal: "技术资料平台"
+  legacy_portal: "旧版维修平台"
